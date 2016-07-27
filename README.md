@@ -1,4 +1,5 @@
 # Shanghai-Telecom-4k-iptv-with-merlin
+# Specialized for private use.
 
 English Veriosn：
 
