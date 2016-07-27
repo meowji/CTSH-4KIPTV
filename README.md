@@ -1,5 +1,15 @@
-# Shanghai-Telecom-4k-iptv-with-merlin
 # Specialized for private use.
+
+<!--删除旧执行脚本-->
+rm -rf sh-4kiptv.sh
+<!--从GITHUB下载执行脚本-->
+wget --no-check-certificate https://raw.githubusercontent.com/meowji/CTSH-4KIPTV/HG680-J_R7000_HG220GS/sh-4kiptv.sh
+<!--脚本赋权-->
+chmod +x sh-4kiptv.sh
+<!--运行脚本-->
+./sh-4kiptv.sh
+
+# Shanghai-Telecom-4k-iptv-with-merlin
 
 English Veriosn：
 
