@@ -43,7 +43,7 @@ echo
 
 #脚本提示
 #echo 正在修改ss dnsmasq配置文件
-echo Begin to modify dnsmasq in ss
+echo Begin to modify dnsmasq profile in ss
 #移动到ss dnsmasq目录
 cd /jffs/ss/redchn
 #删除旧配置文件
@@ -68,7 +68,8 @@ ping 127.0.0.1 -c 2 > /dev/null
 echo
 
 #脚本提示
-echo 正在修改不开启ss情况下的配置文件
+#echo 正在修改不开启ss情况下的配置文件
+echo Begin to modify dnsmasq profile
 #移动到脚本目录
 cd /jffs/scripts
 #删除旧dnsmasq配置文件
