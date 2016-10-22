@@ -62,6 +62,27 @@ chmod -R 0755 dnsmasq.postconf
 #echo 成功
 echo success
 
+#脚本提示
+#echo 正在修改ss插件 dnsmasq配置文件
+echo Begin to modify dnsmasq profile in ss-Addon
+#移动到ss dnsmasq目录
+cd /koolshare/ss/redchn
+#删除旧配置文件
+#echo 正在删除旧文件
+echo delete old dnsmasq script
+rm -rf dnsmasq.postconf
+#下载新配置文件
+#echo 正在下载新文件
+echo download new dnsmasq script
+wget -q --no-check-certificate https://raw.githubusercontent.com/meowji/CTSH-4KIPTV/HG680-J_R7000_HG220GS/ss
+#重命名新配置文件
+mv ss dnsmasq.postconf
+#设置权限
+chmod -R 0755 dnsmasq.postconf
+#完成提示
+#echo 成功
+echo success
+
 #延迟运行
 ping 127.0.0.1 -c 2 > /dev/null
 #空行
